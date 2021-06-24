@@ -1,0 +1,685 @@
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local FEADMIN = Instance.new("TextButton")
+local GODMODE = Instance.new("TextButton")
+local SPAWNER = Instance.new("TextButton")
+local SPAWNER2 = Instance.new("TextButton")
+local MONEYFARM = Instance.new("TextButton")
+local MONEY = Instance.new("TextButton")
+local GODMODEOTHERS = Instance.new("TextButton")
+local KILLSCRIPT = Instance.new("TextButton")
+local TPCRATES = Instance.new("TextButton")
+local TPCARS = Instance.new("TextButton")
+local TPGUI = Instance.new("TextButton")
+local KICKSCRIPT = Instance.new("TextButton")
+local GAMEREJOIN = Instance.new("TextButton")
+local SHOWSPAWNS = Instance.new("TextButton")
+local ENABLECAVETP = Instance.new("TextButton")
+local INFINITEYIELD = Instance.new("TextButton")
+local DEXV4 = Instance.new("TextButton")
+local XlabelB = Instance.new("ImageLabel")
+local XlabelR = Instance.new("ImageLabel")
+local ilabelB = Instance.new("ImageLabel")
+local ilabelW = Instance.new("ImageLabel")
+local LlabelB = Instance.new("ImageLabel")
+local LlabelR = Instance.new("ImageLabel")
+local ElabelB = Instance.new("ImageLabel")
+local ElabelW = Instance.new("ImageLabel")
+local NlabelB = Instance.new("ImageLabel")
+local NlabelR = Instance.new("ImageLabel")
+local TlabelB = Instance.new("ImageLabel")
+local TlabelW = Instance.new("ImageLabel")
+local XlabelBdisplay = Instance.new("ImageLabel")
+local XlabelRdisplay = Instance.new("ImageLabel")
+local ilabelBdisplay = Instance.new("ImageLabel")
+local ilabelWdisplay = Instance.new("ImageLabel")
+local LlabelBdisplay = Instance.new("ImageLabel")
+local LlabelRdisplay = Instance.new("ImageLabel")
+local ElabelBdisplay = Instance.new("ImageLabel")
+local ElabelWdisplay = Instance.new("ImageLabel")
+local NlabelBdisplay = Instance.new("ImageLabel")
+local NlabelRdisplay = Instance.new("ImageLabel")
+local TlabelBdisplay = Instance.new("ImageLabel")
+local TlabelWdisplay = Instance.new("ImageLabel")
+local close = Instance.new("TextButton")
+local openmain = Instance.new("ImageButton")
+local open = Instance.new("ImageButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.0103985528, 0, 0.707672536, 0)
+main.Size = UDim2.new(0, 328, 0, 224)
+
+ScrollingFrame.Parent = main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.Position = UDim2.new(-1.3956209e-07, 0, 0.170984268, 0)
+ScrollingFrame.Size = UDim2.new(0, 327, 0, 184)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 4, 0)
+
+FEADMIN.Name = "FEADMIN"
+FEADMIN.Parent = ScrollingFrame
+FEADMIN.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FEADMIN.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FEADMIN.BorderSizePixel = 5
+FEADMIN.Position = UDim2.new(0.0599999987, 0, 0.0710267946, 0)
+FEADMIN.Size = UDim2.new(0, 283, 0, 33)
+FEADMIN.Font = Enum.Font.GothamBlack
+FEADMIN.Text = "FEADMIN"
+FEADMIN.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEADMIN.TextSize = 30.000
+FEADMIN.TextWrapped = true
+FEADMIN.MouseButton1Down:connect(function()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Injected REVIZ FE!")
+	print("")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StokXx/xilenthubv5.3/main/RAVIZFE", true))()
+end)
+
+GODMODE.Name = "GODMODE"
+GODMODE.Parent = ScrollingFrame
+GODMODE.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GODMODE.BorderColor3 = Color3.fromRGB(255, 0, 4)
+GODMODE.BorderSizePixel = 5
+GODMODE.Position = UDim2.new(0.0603149161, 0, 0.0127045996, 0)
+GODMODE.Size = UDim2.new(0, 283, 0, 33)
+GODMODE.Font = Enum.Font.GothamBlack
+GODMODE.Text = "GODMODE"
+GODMODE.TextColor3 = Color3.fromRGB(255, 0, 4)
+GODMODE.TextSize = 30.000
+GODMODE.TextWrapped = true
+GODMODE.MouseButton1Down:connect(function()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Injected GODMODE!")
+	print("")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StokXx/xilenthubv5.3/main/selfgod.txt", true))()
+end)
+
+SPAWNER.Name = "SPAWNER"
+SPAWNER.Parent = ScrollingFrame
+SPAWNER.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SPAWNER.BorderColor3 = Color3.fromRGB(255, 0, 4)
+SPAWNER.BorderSizePixel = 5
+SPAWNER.Position = UDim2.new(0.0599999987, 0, 0.128999993, 0)
+SPAWNER.Size = UDim2.new(0, 283, 0, 33)
+SPAWNER.Font = Enum.Font.GothamBlack
+SPAWNER.Text = "SPAWNER"
+SPAWNER.TextColor3 = Color3.fromRGB(255, 0, 0)
+SPAWNER.TextSize = 30.000
+SPAWNER.TextWrapped = true
+SPAWNER.MouseButton1Down:connect(function()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Injected XILENT SPAWN GUI REVAMP!")
+	print("")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StokXx/xilenthubv5.3/main/Kent991GuiRevamp", true))()
+end)
+
+SPAWNER2.Name = "SPAWNER2"
+SPAWNER2.Parent = ScrollingFrame
+SPAWNER2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SPAWNER2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+SPAWNER2.BorderSizePixel = 5
+SPAWNER2.Position = UDim2.new(0.0599999987, 0, 0.188999996, 0)
+SPAWNER2.Size = UDim2.new(0, 283, 0, 33)
+SPAWNER2.Font = Enum.Font.GothamBlack
+SPAWNER2.Text = "SPAWNER"
+SPAWNER2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SPAWNER2.TextSize = 30.000
+SPAWNER2.TextWrapped = true
+SPAWNER2.MouseButton1Down:connect(function()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Injected XILENT SPAWN GUI REVAMP!")
+	print("")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StokXx/xilenthubv5.3/main/doggoobf.txt", true))()
+end)
+
+MONEYFARM.Name = "MONEYFARM"
+MONEYFARM.Parent = ScrollingFrame
+MONEYFARM.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MONEYFARM.BorderColor3 = Color3.fromRGB(255, 255, 255)
+MONEYFARM.BorderSizePixel = 5
+MONEYFARM.Position = UDim2.new(0.0599999987, 0, 0.305000007, 0)
+MONEYFARM.Size = UDim2.new(0, 283, 0, 33)
+MONEYFARM.Font = Enum.Font.GothamBlack
+MONEYFARM.Text = "MONEYFARM"
+MONEYFARM.TextColor3 = Color3.fromRGB(255, 255, 255)
+MONEYFARM.TextSize = 30.000
+MONEYFARM.TextWrapped = true
+MONEYFARM.MouseButton1Down:connect(function()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Injected MONEY FARM SCRIPT!")
+	print("")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StokXx/xilenthubv5.3/main/zombiemoneyfarm", true))()
+end)
+
+MONEY.Name = "MONEY"
+MONEY.Parent = ScrollingFrame
+MONEY.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MONEY.BorderColor3 = Color3.fromRGB(255, 0, 4)
+MONEY.BorderSizePixel = 5
+MONEY.Position = UDim2.new(0.0599999987, 0, 0.246999994, 0)
+MONEY.Size = UDim2.new(0, 283, 0, 33)
+MONEY.Font = Enum.Font.GothamBlack
+MONEY.Text = "MONEY"
+MONEY.TextColor3 = Color3.fromRGB(255, 0, 4)
+MONEY.TextSize = 30.000
+MONEY.TextWrapped = true
+MONEY.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StokXx/xilenthubv5.3/main/money", true))()
+end)
+
+GODMODEOTHERS.Name = "GODMODEOTHERS"
+GODMODEOTHERS.Parent = ScrollingFrame
+GODMODEOTHERS.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GODMODEOTHERS.BorderColor3 = Color3.fromRGB(255, 255, 255)
+GODMODEOTHERS.BorderSizePixel = 5
+GODMODEOTHERS.Position = UDim2.new(0.0599999987, 0, 0.421000004, 0)
+GODMODEOTHERS.Size = UDim2.new(0, 283, 0, 33)
+GODMODEOTHERS.Font = Enum.Font.GothamBlack
+GODMODEOTHERS.Text = "GODGUI"
+GODMODEOTHERS.TextColor3 = Color3.fromRGB(255, 255, 255)
+GODMODEOTHERS.TextSize = 30.000
+GODMODEOTHERS.TextWrapped = true
+GODMODEOTHERS.MouseButton1Down:connect(function()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Injected GODMODESCRIPT!")
+	print("")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StokXx/xilenthubv5.3/main/godmodeobf.lua", true))()
+end)
+
+KILLSCRIPT.Name = "KILLSCRIPT"
+KILLSCRIPT.Parent = ScrollingFrame
+KILLSCRIPT.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+KILLSCRIPT.BorderColor3 = Color3.fromRGB(255, 0, 4)
+KILLSCRIPT.BorderSizePixel = 5
+KILLSCRIPT.Position = UDim2.new(0.0599999987, 0, 0.479000002, 0)
+KILLSCRIPT.Size = UDim2.new(0, 283, 0, 33)
+KILLSCRIPT.Font = Enum.Font.GothamBlack
+KILLSCRIPT.Text = "KILLGUI"
+KILLSCRIPT.TextColor3 = Color3.fromRGB(255, 0, 4)
+KILLSCRIPT.TextSize = 30.000
+KILLSCRIPT.TextWrapped = true
+KILLSCRIPT.MouseButton1Down:connect(function()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Injected KILLSCRIPT")
+	print("")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StokXx/xilenthubv5.3/main/killobf.lua", true))()
+end)
+
+TPCRATES.Name = "TPCRATES"
+TPCRATES.Parent = ScrollingFrame
+TPCRATES.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TPCRATES.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TPCRATES.BorderSizePixel = 5
+TPCRATES.Position = UDim2.new(0.0599999987, 0, 0.652999997, 0)
+TPCRATES.Size = UDim2.new(0, 283, 0, 33)
+TPCRATES.Font = Enum.Font.GothamBlack
+TPCRATES.Text = "TPCRATES"
+TPCRATES.TextColor3 = Color3.fromRGB(255, 255, 255)
+TPCRATES.TextSize = 30.000
+TPCRATES.TextWrapped = true
+TPCRATES.MouseButton1Down:connect(function()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Executed TPCRATES")
+	print("")
+	local player = game:GetService("Players").LocalPlayer
+	local getcrates = game:GetService("Workspace").crates
+
+	for i, v in pairs(getcrates:GetChildren()) do
+		if v.Name == "crate" then 
+			v.main.CFrame = player.Character.HumanoidRootPart.CFrame
+		end
+	end
+end)
+
+TPCARS.Name = "TPCARS"
+TPCARS.Parent = ScrollingFrame
+TPCARS.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TPCARS.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TPCARS.BorderSizePixel = 5
+TPCARS.Position = UDim2.new(0.0599999987, 0, 0.363000005, 0)
+TPCARS.Size = UDim2.new(0, 283, 0, 33)
+TPCARS.Font = Enum.Font.GothamBlack
+TPCARS.Text = "TPCARS"
+TPCARS.TextColor3 = Color3.fromRGB(255, 0, 4)
+TPCARS.TextSize = 30.000
+TPCARS.TextWrapped = true
+TPCARS.MouseButton1Down:connect(function()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Injected TPCARS made by ced#6666!")
+	print("")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StokXx/xilenthubv5.3/main/tpcars", true))()
+end)
+
+TPGUI.Name = "TPGUI"
+TPGUI.Parent = ScrollingFrame
+TPGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TPGUI.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TPGUI.BorderSizePixel = 5
+TPGUI.Position = UDim2.new(0.0599999987, 0, 0.595000029, 0)
+TPGUI.Size = UDim2.new(0, 283, 0, 33)
+TPGUI.Font = Enum.Font.GothamBlack
+TPGUI.Text = "TPGUI"
+TPGUI.TextColor3 = Color3.fromRGB(255, 0, 4)
+TPGUI.TextSize = 30.000
+TPGUI.TextWrapped = true
+TPGUI.MouseButton1Down:connect(function()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Injected TP GUI!")
+	print("")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StokXx/xilenthubv5.3/main/tpgui", true))()
+end)
+
+KICKSCRIPT.Name = "KICKSCRIPT"
+KICKSCRIPT.Parent = ScrollingFrame
+KICKSCRIPT.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+KICKSCRIPT.BorderColor3 = Color3.fromRGB(255, 255, 255)
+KICKSCRIPT.BorderSizePixel = 5
+KICKSCRIPT.Position = UDim2.new(0.0599999987, 0, 0.537, 0)
+KICKSCRIPT.Size = UDim2.new(0, 283, 0, 33)
+KICKSCRIPT.Font = Enum.Font.GothamBlack
+KICKSCRIPT.Text = "KICKGUI"
+KICKSCRIPT.TextColor3 = Color3.fromRGB(255, 255, 255)
+KICKSCRIPT.TextSize = 30.000
+KICKSCRIPT.TextWrapped = true
+KICKSCRIPT.MouseButton1Down:connect(function()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Injected CRASHSCRIPT!")
+	print("")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StokXx/xilenthubv5.3/main/crashobf.lua", true))()
+end)
+
+GAMEREJOIN.Name = "GAMEREJOIN"
+GAMEREJOIN.Parent = ScrollingFrame
+GAMEREJOIN.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GAMEREJOIN.BorderColor3 = Color3.fromRGB(255, 0, 4)
+GAMEREJOIN.BorderSizePixel = 5
+GAMEREJOIN.Position = UDim2.new(0.0599999987, 0, 0.711000025, 0)
+GAMEREJOIN.Size = UDim2.new(0, 283, 0, 33)
+GAMEREJOIN.Font = Enum.Font.GothamBlack
+GAMEREJOIN.Text = "GAMEREJOIN"
+GAMEREJOIN.TextColor3 = Color3.fromRGB(255, 0, 4)
+GAMEREJOIN.TextSize = 30.000
+GAMEREJOIN.TextWrapped = true
+GAMEREJOIN.MouseButton1Down:connect(function()
+	local placeId = "361591023"
+	game:GetService("TeleportService"):Teleport(placeId)
+end)
+
+SHOWSPAWNS.Name = "SHOWSPAWNS"
+SHOWSPAWNS.Parent = ScrollingFrame
+SHOWSPAWNS.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SHOWSPAWNS.BorderColor3 = Color3.fromRGB(255, 255, 255)
+SHOWSPAWNS.BorderSizePixel = 5
+SHOWSPAWNS.Position = UDim2.new(0.0599999987, 0, 0.768999994, 0)
+SHOWSPAWNS.Size = UDim2.new(0, 283, 0, 33)
+SHOWSPAWNS.Font = Enum.Font.GothamBlack
+SHOWSPAWNS.Text = "SHOWSPAWNS"
+SHOWSPAWNS.TextColor3 = Color3.fromRGB(255, 255, 255)
+SHOWSPAWNS.TextSize = 30.000
+SHOWSPAWNS.TextWrapped = true
+SHOWSPAWNS.MouseButton1Down:connect(function()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Injected SHOWSPAWNS!")	
+	print("")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StokXx/xilenthubv5.3/main/showallspawnsobf.lua", true))()
+end)
+
+ENABLECAVETP.Name = "ENABLECAVETP"
+ENABLECAVETP.Parent = ScrollingFrame
+ENABLECAVETP.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ENABLECAVETP.BorderColor3 = Color3.fromRGB(255, 0, 4)
+ENABLECAVETP.BorderSizePixel = 5
+ENABLECAVETP.Position = UDim2.new(0.0599999987, 0, 0.827000022, 0)
+ENABLECAVETP.Size = UDim2.new(0, 283, 0, 33)
+ENABLECAVETP.Font = Enum.Font.GothamBlack
+ENABLECAVETP.Text = "ENABLECAVETP"
+ENABLECAVETP.TextColor3 = Color3.fromRGB(255, 0, 4)
+ENABLECAVETP.TextSize = 30.000
+ENABLECAVETP.TextWrapped = true
+ENABLECAVETP.MouseButton1Down:connect(function()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Injected ENABLECAVETP!")
+	print("| You need to go to the gas station (It's the boarded off rock)")	
+	print("")		
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StokXx/xilenthubv5.3/main/secretcaveteleport.txt", true))()
+end)	
+
+INFINITEYIELD.Name = "INFINITEYIELD"
+INFINITEYIELD.Parent = ScrollingFrame
+INFINITEYIELD.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+INFINITEYIELD.BorderColor3 = Color3.fromRGB(255, 255, 255)
+INFINITEYIELD.BorderSizePixel = 5
+INFINITEYIELD.Position = UDim2.new(0.0599999987, 0, 0.88499999, 0)
+INFINITEYIELD.Size = UDim2.new(0, 283, 0, 33)
+INFINITEYIELD.Font = Enum.Font.GothamBlack
+INFINITEYIELD.Text = "INFINITEYIELD"
+INFINITEYIELD.TextColor3 = Color3.fromRGB(255, 255, 255)
+INFINITEYIELD.TextSize = 30.000
+INFINITEYIELD.TextWrapped = true
+INFINITEYIELD.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Injected Infinite Yield!")
+	print("")
+end)
+
+DEXV4.Name = "DEXV4"
+DEXV4.Parent = ScrollingFrame
+DEXV4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DEXV4.BorderColor3 = Color3.fromRGB(255, 0, 4)
+DEXV4.BorderSizePixel = 5
+DEXV4.Position = UDim2.new(0.0599999987, 0, 0.943000019, 0)
+DEXV4.Size = UDim2.new(0, 283, 0, 33)
+DEXV4.Font = Enum.Font.GothamBlack
+DEXV4.Text = "DEXV4"
+DEXV4.TextColor3 = Color3.fromRGB(255, 0, 4)
+DEXV4.TextSize = 30.000
+DEXV4.TextWrapped = true
+DEXV4.MouseButton1Down:connect(function()
+	print("")
+	print("| Xilent Revenge HUB")
+	print("|       v5.3        ")
+	print("| Injected DEXV4!")
+	print("")
+	loadstring(game:GetObjects("rbxassetid://418957341")[1].Source)()
+end)
+
+XlabelB.Name = "XlabelB"
+XlabelB.Parent = main
+XlabelB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+XlabelB.BackgroundTransparency = 1.000
+XlabelB.Position = UDim2.new(0.083625339, 0, -0.329753131, 0)
+XlabelB.Rotation = -20.000
+XlabelB.Size = UDim2.new(0, 124, 0, 124)
+XlabelB.Image = "rbxassetid://6871853518"
+XlabelB.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+XlabelR.Name = "XlabelR"
+XlabelR.Parent = XlabelB
+XlabelR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+XlabelR.BackgroundTransparency = 1.000
+XlabelR.Position = UDim2.new(-0.0278456919, 0, 0, 0)
+XlabelR.Size = UDim2.new(0, 131, 0, 131)
+XlabelR.Image = "rbxassetid://6871853518"
+XlabelR.ImageColor3 = Color3.fromRGB(255, 0, 4)
+
+ilabelB.Name = "ilabelB"
+ilabelB.Parent = XlabelB
+ilabelB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ilabelB.BackgroundTransparency = 1.000
+ilabelB.Position = UDim2.new(0.240322471, 0, 0.265968084, 0)
+ilabelB.Rotation = 2.000
+ilabelB.Size = UDim2.new(0, 100, 0, 100)
+ilabelB.Image = "rbxassetid://6871879234"
+ilabelB.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+ilabelW.Name = "ilabelW"
+ilabelW.Parent = ilabelB
+ilabelW.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ilabelW.BackgroundTransparency = 1.000
+ilabelW.Position = UDim2.new(-0.00982352905, 0, 0.0328225382, 0)
+ilabelW.Rotation = 2.000
+ilabelW.Size = UDim2.new(0, 100, 0, 100)
+ilabelW.Image = "rbxassetid://6871879234"
+
+LlabelB.Name = "LlabelB"
+LlabelB.Parent = XlabelB
+LlabelB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LlabelB.BackgroundTransparency = 1.000
+LlabelB.Position = UDim2.new(0.467741728, 0, 0.322580636, 0)
+LlabelB.Rotation = -5.000
+LlabelB.Size = UDim2.new(0, 100, 0, 100)
+LlabelB.Image = "rbxassetid://6871922870"
+LlabelB.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+LlabelR.Name = "LlabelR"
+LlabelR.Parent = LlabelB
+LlabelR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LlabelR.BackgroundTransparency = 1.000
+LlabelR.Position = UDim2.new(3.0733645e-07, 0, -0.00967746042, 0)
+LlabelR.Size = UDim2.new(0, 100, 0, 100)
+LlabelR.Image = "rbxassetid://6871922870"
+LlabelR.ImageColor3 = Color3.fromRGB(255, 0, 4)
+
+ElabelB.Name = "ElabelB"
+ElabelB.Parent = XlabelB
+ElabelB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ElabelB.BackgroundTransparency = 1.000
+ElabelB.Position = UDim2.new(0.752726376, 0, 0.460096717, 0)
+ElabelB.Rotation = -2.000
+ElabelB.Size = UDim2.new(0, 85, 0, 85)
+ElabelB.Image = "rbxassetid://6877056181"
+ElabelB.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+ElabelW.Name = "ElabelW"
+ElabelW.Parent = ElabelB
+ElabelW.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ElabelW.BackgroundTransparency = 1.000
+ElabelW.Position = UDim2.new(-0.0230161883, 0, 0.0204684734, 0)
+ElabelW.Rotation = -2.000
+ElabelW.Size = UDim2.new(0, 85, 0, 85)
+ElabelW.Image = "rbxassetid://6877056181"
+
+NlabelB.Name = "NlabelB"
+NlabelB.Parent = XlabelB
+NlabelB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NlabelB.BackgroundTransparency = 1.000
+NlabelB.Position = UDim2.new(0.951612592, 0, 0.491935372, 0)
+NlabelB.Size = UDim2.new(0, 100, 0, 100)
+NlabelB.Image = "rbxassetid://6871938598"
+NlabelB.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+NlabelR.Name = "NlabelR"
+NlabelR.Parent = NlabelB
+NlabelR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NlabelR.BackgroundTransparency = 1.000
+NlabelR.Position = UDim2.new(0.000322360545, 0, 0.0187096093, 0)
+NlabelR.Size = UDim2.new(0, 100, 0, 100)
+NlabelR.Image = "rbxassetid://6871938598"
+NlabelR.ImageColor3 = Color3.fromRGB(255, 0, 4)
+
+TlabelB.Name = "TlabelB"
+TlabelB.Parent = XlabelB
+TlabelB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TlabelB.BackgroundTransparency = 1.000
+TlabelB.Position = UDim2.new(1.20812094, 0, 0.435026586, 0)
+TlabelB.Size = UDim2.new(0, 118, 0, 118)
+TlabelB.Image = "rbxassetid://6871947573"
+TlabelB.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+TlabelW.Name = "TlabelW"
+TlabelW.Parent = TlabelB
+TlabelW.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TlabelW.BackgroundTransparency = 1.000
+TlabelW.Position = UDim2.new(-0.0270000007, 0, 0.0199999996, 0)
+TlabelW.Size = UDim2.new(0, 118, 0, 118)
+TlabelW.Image = "rbxassetid://6871947573"
+
+XlabelBdisplay.Name = "XlabelBdisplay"
+XlabelBdisplay.Parent = main
+XlabelBdisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+XlabelBdisplay.BackgroundTransparency = 1.000
+XlabelBdisplay.Position = UDim2.new(1.93700004, 0, -2.70900011, 0)
+XlabelBdisplay.Rotation = -20.000
+XlabelBdisplay.Size = UDim2.new(0, 124, 0, 124)
+XlabelBdisplay.Visible = false
+XlabelBdisplay.Image = "rbxassetid://6871853518"
+XlabelBdisplay.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+XlabelRdisplay.Name = "XlabelRdisplay"
+XlabelRdisplay.Parent = XlabelBdisplay
+XlabelRdisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+XlabelRdisplay.BackgroundTransparency = 1.000
+XlabelRdisplay.Position = UDim2.new(-0.0278456919, 0, 0, 0)
+XlabelRdisplay.Size = UDim2.new(0, 131, 0, 131)
+XlabelRdisplay.Image = "rbxassetid://6871853518"
+XlabelRdisplay.ImageColor3 = Color3.fromRGB(255, 0, 4)
+
+ilabelBdisplay.Name = "ilabelBdisplay"
+ilabelBdisplay.Parent = XlabelBdisplay
+ilabelBdisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ilabelBdisplay.BackgroundTransparency = 1.000
+ilabelBdisplay.Position = UDim2.new(0.240322471, 0, 0.265968084, 0)
+ilabelBdisplay.Rotation = 2.000
+ilabelBdisplay.Size = UDim2.new(0, 100, 0, 100)
+ilabelBdisplay.Image = "rbxassetid://6871879234"
+ilabelBdisplay.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+ilabelWdisplay.Name = "ilabelWdisplay"
+ilabelWdisplay.Parent = ilabelBdisplay
+ilabelWdisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ilabelWdisplay.BackgroundTransparency = 1.000
+ilabelWdisplay.Position = UDim2.new(-0.00982352905, 0, 0.0328225382, 0)
+ilabelWdisplay.Rotation = 2.000
+ilabelWdisplay.Size = UDim2.new(0, 100, 0, 100)
+ilabelWdisplay.Image = "rbxassetid://6871879234"
+
+LlabelBdisplay.Name = "LlabelBdisplay"
+LlabelBdisplay.Parent = XlabelBdisplay
+LlabelBdisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LlabelBdisplay.BackgroundTransparency = 1.000
+LlabelBdisplay.Position = UDim2.new(0.467741728, 0, 0.322580636, 0)
+LlabelBdisplay.Rotation = -5.000
+LlabelBdisplay.Size = UDim2.new(0, 100, 0, 100)
+LlabelBdisplay.Image = "rbxassetid://6871922870"
+LlabelBdisplay.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+LlabelRdisplay.Name = "LlabelRdisplay"
+LlabelRdisplay.Parent = LlabelBdisplay
+LlabelRdisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LlabelRdisplay.BackgroundTransparency = 1.000
+LlabelRdisplay.Position = UDim2.new(3.0733645e-07, 0, -0.00967746042, 0)
+LlabelRdisplay.Size = UDim2.new(0, 100, 0, 100)
+LlabelRdisplay.Image = "rbxassetid://6871922870"
+LlabelRdisplay.ImageColor3 = Color3.fromRGB(255, 0, 4)
+
+ElabelBdisplay.Name = "ElabelBdisplay"
+ElabelBdisplay.Parent = XlabelBdisplay
+ElabelBdisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ElabelBdisplay.BackgroundTransparency = 1.000
+ElabelBdisplay.Position = UDim2.new(0.752726376, 0, 0.460096717, 0)
+ElabelBdisplay.Rotation = -2.000
+ElabelBdisplay.Size = UDim2.new(0, 85, 0, 85)
+ElabelBdisplay.Image = "rbxassetid://6877056181"
+ElabelBdisplay.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+ElabelWdisplay.Name = "ElabelWdisplay"
+ElabelWdisplay.Parent = ElabelBdisplay
+ElabelWdisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ElabelWdisplay.BackgroundTransparency = 1.000
+ElabelWdisplay.Position = UDim2.new(-0.0230161883, 0, 0.0204684734, 0)
+ElabelWdisplay.Rotation = -2.000
+ElabelWdisplay.Size = UDim2.new(0, 85, 0, 85)
+ElabelWdisplay.Image = "rbxassetid://6877056181"
+
+NlabelBdisplay.Name = "NlabelBdisplay"
+NlabelBdisplay.Parent = XlabelBdisplay
+NlabelBdisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NlabelBdisplay.BackgroundTransparency = 1.000
+NlabelBdisplay.Position = UDim2.new(0.951612592, 0, 0.491935372, 0)
+NlabelBdisplay.Size = UDim2.new(0, 100, 0, 100)
+NlabelBdisplay.Image = "rbxassetid://6871938598"
+NlabelBdisplay.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+NlabelRdisplay.Name = "NlabelRdisplay"
+NlabelRdisplay.Parent = NlabelBdisplay
+NlabelRdisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NlabelRdisplay.BackgroundTransparency = 1.000
+NlabelRdisplay.Position = UDim2.new(0.000322360545, 0, 0.0187096093, 0)
+NlabelRdisplay.Size = UDim2.new(0, 100, 0, 100)
+NlabelRdisplay.Image = "rbxassetid://6871938598"
+NlabelRdisplay.ImageColor3 = Color3.fromRGB(255, 0, 4)
+
+TlabelBdisplay.Name = "TlabelBdisplay"
+TlabelBdisplay.Parent = XlabelBdisplay
+TlabelBdisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TlabelBdisplay.BackgroundTransparency = 1.000
+TlabelBdisplay.Position = UDim2.new(1.20812094, 0, 0.435026586, 0)
+TlabelBdisplay.Size = UDim2.new(0, 118, 0, 118)
+TlabelBdisplay.Image = "rbxassetid://6871947573"
+TlabelBdisplay.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+TlabelWdisplay.Name = "TlabelWdisplay"
+TlabelWdisplay.Parent = TlabelBdisplay
+TlabelWdisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TlabelWdisplay.BackgroundTransparency = 1.000
+TlabelWdisplay.Position = UDim2.new(-0.0270000007, 0, 0.0199999996, 0)
+TlabelWdisplay.Size = UDim2.new(0, 118, 0, 118)
+TlabelWdisplay.Image = "rbxassetid://6871947573"
+
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+close.BorderSizePixel = 0
+close.Position = UDim2.new(0.805213571, 0, 0.0424107164, 0)
+close.Size = UDim2.new(0, 56, 0, 21)
+close.Font = Enum.Font.GothamBlack
+close.Text = "<<<"
+close.TextColor3 = Color3.fromRGB(255, 0, 4)
+close.TextSize = 14.000
+close.MouseButton1Down:connect(function()
+	main.Visible = false
+	openmain.Visible = true
+end)
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+openmain.BackgroundTransparency = 1.000
+openmain.Position = UDim2.new(-5.31971455e-06, 0, 0.66281873, 0)
+openmain.Rotation = -20.000
+openmain.Size = UDim2.new(0, 62, 0, 62)
+openmain.Visible = false
+openmain.Image = "rbxassetid://6877810379"
+openmain.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+open.Name = "open"
+open.Parent = openmain
+open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open.BackgroundTransparency = 1.000
+open.Position = UDim2.new(-0.00710868835, 0, -0.00206436659, 0)
+open.Size = UDim2.new(0, 62, 0, 62)
+open.Image = "rbxassetid://6877810379"
+open.ImageColor3 = Color3.fromRGB(255, 0, 4)
+open.MouseButton1Down:connect(function()
+	openmain.Visible = false
+	main.Visible = true
+end)
