@@ -1,4 +1,3 @@
-GAMEREJOIN.MouseButton1Down:connect(function()
-    local placeId = "361591023"
-    game:GetService("TeleportService"):Teleport(placeId)
-end)
+local placeId = "361591023"
+game:GetService("TeleportService"):Teleport(placeId)
+
